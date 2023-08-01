@@ -12,6 +12,11 @@ def About():
     return"<h1>Hello, About myself!</h1>"
 
 
+@app.route("/login")
+def About():
+    return"<h1>login to my web!</h1>"
+
+
 @app.route("/test")
 def test():
     data = request.args.get('x')
